@@ -9,7 +9,7 @@ function headNode(linkedList, collection){
 }
 
 function next(node, collection) {
-  console.log(collection[node.next])
+  // console.log(collection[node.next])
   return collection[node.next];
 }
 
@@ -29,7 +29,7 @@ function insertNodeAt(node) {
 
 }
 
-function deleteNodeAt(node) {
-  // console.log(node)
+function deleteNodeAt(collection, node) {
+  console.log(collection)
 
 }
