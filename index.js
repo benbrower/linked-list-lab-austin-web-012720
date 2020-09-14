@@ -33,7 +33,7 @@ function addressAt(index, list, collection) {
   }
 }
 
-function indexAt(index, list, collection) {
+function indexAt(node, list, collection) {
   // console.log(node)
   let currentNode = headNode(list, collection);
   let currentIndex = 0;
