@@ -4,14 +4,12 @@ function getName(node){
 }
 
 function headNode(linkedList, collection){
-
-  console.log(collection)
+  // console.log(collection)
   return(collection[linkedList])
-  // return node;
 }
 
 function next(node) {
-  // console.log(node)
+  console.log(node.next)
 
 }
 
