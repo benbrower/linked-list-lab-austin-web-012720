@@ -5,7 +5,7 @@ function getName(node){
 
 function headNode(linkedList, collection){
 
-  console.log(collection[linkedList])
+  console.log(collection)
   return(collection[linkedList])
   // return node;
 }
