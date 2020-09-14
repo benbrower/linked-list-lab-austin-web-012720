@@ -3,8 +3,9 @@ function getName(node){
   return node.name;
 }
 
-function headNode(node){
-  console.log(node)
+function headNode(linkedList, collection){
+  console.log('ll', linkedList)
+  console.log('col', collection)
   return node;
 }
 
