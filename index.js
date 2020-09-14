@@ -8,9 +8,9 @@ function headNode(linkedList, collection){
   return(collection[linkedList])
 }
 
-function next(node) {
+function next(node, collection) {
   console.log(node.next)
-  return getName(node.next);
+  return collection[node.next];
 }
 
 function addressAt(node) {
