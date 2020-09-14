@@ -9,8 +9,8 @@ function headNode(linkedList, collection){
 }
 
 function next(node, collection) {
-  // console.log(collection[node.next])
-  return collection[node.next];
+  let nextAddress = node.next
+  return collection[`${nextAddress}`]
 }
 
 function nodeAt(index, list, collection){
