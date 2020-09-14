@@ -9,7 +9,7 @@ function headNode(linkedList, collection){
 }
 
 function next(node, collection) {
-  console.log(node.next)
+  console.log(collection[node.next])
   return collection[node.next];
 }
 
