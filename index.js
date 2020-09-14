@@ -10,7 +10,7 @@ function headNode(linkedList, collection){
 
 function next(node) {
   console.log(node.next)
-
+  return node.next;
 }
 
 function addressAt(node) {
