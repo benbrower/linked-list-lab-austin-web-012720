@@ -6,6 +6,7 @@ function getName(node){
 function headNode(linkedList, collection){
   console.log('ll', linkedList)
   console.log('col', collection)
+  console.log(collection[linkedlist])
   // return node;
 }
 
