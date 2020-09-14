@@ -44,8 +44,19 @@ function indexAt(node, list, collection) {
   return currentIndex;
 }
 
-function insertNodeAt(node) {
+function insertNodeAt(index, newNodeAddress, list, collection) {
   // console.log(node)
+  let previousNode = nodeAt(index - 1, list, collection);
+  let previousNodeIndex = indexAt(previousNode, collection, list);
+  let previousNodeAddress = addressAt(previousNode, collection, list);
+
+  let nextNode = nodeAt(index, list, collection);
+  let nextNodeIndex = indexAt(nextNode, collection, list);
+  let nextNodeAddress = addressAt(nextNode, collection, list);
+
+  previousNode.next = newNodeAddress;
+  let newNode = collection[newNodeAddress];
+  newNode.next = nextNodeAddress;
 
 }
 
