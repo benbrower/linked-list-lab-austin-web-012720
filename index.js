@@ -3,26 +3,32 @@ function getName(node){
   return node.name;
 }
 
-function headNode(){
+function headNode(node){
+  console.log(node)
 
 }
 
-function next() {
+function next(node) {
+  console.log(node)
 
 }
 
-function addressAt() {
+function addressAt(node) {
+  console.log(node)
 
 }
 
-function indexAt() {
+function indexAt(node) {
+  console.log(node)
 
 }
 
-function insertNodeAt() {
+function insertNodeAt(node) {
+  console.log(node)
 
 }
 
-function deleteNodeAt() {
+function deleteNodeAt(node) {
+  console.log(node)
 
 }
