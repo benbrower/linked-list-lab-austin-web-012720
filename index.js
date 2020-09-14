@@ -5,7 +5,7 @@ function getName(node){
 
 function headNode(node){
   console.log(node)
-
+  return node;
 }
 
 function next(node) {
@@ -15,7 +15,7 @@ function next(node) {
 
 function addressAt(node) {
   // console.log(node)
-  return node;
+  // return node;
 
 }
 
