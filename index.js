@@ -13,6 +13,14 @@ function next(node, collection) {
   return collection[node.next];
 }
 
+function nodeAt(index, list, collection){
+  let currentNode = headNode(list, collection);
+  for (let i = 0; i < index; i++){
+    currentNode = next(currentNode, collection);
+  }
+  return currentNode;
+}
+
 function addressAt(index, list, collection) {
   console.log('index', index)
   console.log('list', list)
@@ -25,9 +33,15 @@ function addressAt(index, list, collection) {
   }
 }
 
-function indexAt(node) {
+function indexAt(index, list, collection) {
   // console.log(node)
-
+  let currentNode = headNode(list, collection);
+  let currentIndex = 0;
+  while (currentNode != node){
+    currentIndex++;
+    currentNode = next(currentNode, collection);
+  }
+  return currentIndex;
 }
 
 function insertNodeAt(node) {
