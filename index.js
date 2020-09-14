@@ -30,6 +30,5 @@ function insertNodeAt(node) {
 }
 
 function deleteNodeAt(index, list, collection) {
-  console.log(index, list, collection)
-
+  console.log(collection[index])
 }
