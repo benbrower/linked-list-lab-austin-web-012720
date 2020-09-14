@@ -15,6 +15,7 @@ function next(node) {
 
 function addressAt(node) {
   // console.log(node)
+  return node;
 
 }
 
