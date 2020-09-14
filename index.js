@@ -17,7 +17,12 @@ function addressAt(index, list, collection) {
   console.log('index', index)
   console.log('list', list)
   console.log('collection', collection)
-
+  if(index === 0){
+    return list;
+  } else {
+    let node = nodeAt(index - 1, list, collection);
+    return node.next;
+  }
 }
 
 function indexAt(node) {
