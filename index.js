@@ -13,9 +13,10 @@ function next(node, collection) {
   return collection[node.next];
 }
 
-function addressAt(node) {
-  // console.log(node)
-  // return node;
+function addressAt(index, list, collection) {
+  console.log('index', index)
+  console.log('list', list)
+  console.log('collection', collection)
 
 }
 
@@ -30,7 +31,14 @@ function insertNodeAt(node) {
 }
 
 function deleteNodeAt(index, list, collection) {
-  console.log('index', index)
-  console.log('list', list)
-  console.log('collection', collection)
+  // console.log('index', index)
+  // console.log('list', list)
+  // console.log('collection', collection)
+  // let previousNode;
+  // let currentNode = headNode(linkedList, collection);
+  // for (let i = 0; i < index; i++){
+  //   previousNode = currentNode;
+  //   currentNode = next(currentNode, collection)
+  // }
+  // previousNode.next = currentNode.next;
 }
